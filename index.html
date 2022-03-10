@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/elements.css">
+  <link rel="stylesheet" href="css/classes.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">Fe Almeida</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">serviços</a></li>
+          <li><a href="#galeria">galeria</a></li>
+          <li><a href="#pets">pets</a></li>
+          <li><a href="#valores">valores</a></li>
+          <li><a href="#contato">contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="sobre" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Sobre Fernanda Almeida</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi error corporis quisquam voluptatibus ut dolores saepe impedit neque necessitatibus,
+           possimus laboriosam? Laborum consectetur doloremque eos, magni vero veniam sequi aspernatur.</p>
+      </div>
+      <div class="intro-img">
+        <img src="img/welcome.svg" alt="Logo de HTML, CSS e JS.">
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Formação</h2>
+      <h3>Belas patas</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi error corporis quisquam voluptatibus ut dolores saepe impedit neque necessitatibus</p>
+      <p>Alguns deles são: banhos, hidratação, tosa na máquina, tosa na tesoura, tosa higiênica, desembaraçamento, tingimento dos pelos, escovação de dentes, limpeza de ouvido e corte de unhas.</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi error corporis quisquam voluptatibus ut dolores saepe impedit neque necessitatibus.</p>
+    </div>
+  </section>
+
+
+  <section id="servicos" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Serviços</h2>
+      <p class="grid-description">Alguns deles são: banhos, hidratação, tosa na máquina, tosa na tesoura, 
+        tosa higiênica, desembaraçamento, tingimento dos pelos, escovação de dentes, 
+        limpeza de ouvido e corte de unhas.</p>
+
+      <div class="grid">
+        <article>
+          <h3>Banho</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+        </article>
+        <article>
+          <h3>Tosa</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+        </article>
+        <article>
+          <h3>Hidratação</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Galeria de fofuraaa!</h2>
+      <p class="grid-description">Antes e depois.</p>
+
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pets" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Pets</h2>
+      <p class="grid-description">Os pets que a tia Fê ja embelezou.</p>
+
+      <div class="grid">
+        <article>
+          <h3>Jade</h3>
+          <p>Uma cadela de sem rça definida (SRD), pelo curto de cor preto, porte pequeno (até 10kg) que só late.</p>
+          <h4>O que foi feito?</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+        </article>
+        <article>
+          <h3>Lily</h3>
+          <p>Uma pquena Poddle de 14 anos, pelos escuros e beeeeem fofinha!</p>
+          <h4>O que foi feito?</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+        </article>
+        <article>
+          <h3>Brutus</h3>
+          <p>Um pitbull super pesado com 18kg, cor cinza e de 5 anos de idade!</p>
+          <h4>O que foi feito?</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="valores" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Valores</h2>
+      <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some
+        surprises at the machine’s performance. This post details some background information on the experience of
+        porting Firefox to run natively on these CPUs.</p>
+      <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to
+        know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+
+      <div class="responsive-table">
+        <table>
+          <caption>Tabela de preços</caption>
+
+          <thead>
+            <tr>
+              <th>Posição</th>
+              <th>Banho</th>
+              <th>Tosa higiênica</th> 
+              <th>Tosa tesoura</th>
+              <th>Tosa máquina</th>             
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>P1</td>
+              <td>R$:39.99</td>
+              <td>R$:15.00</td>
+              <td>R$:30.00</td>
+              <td>R$:15.00</td>
+            </tr>
+            <tr>
+              <td>P2</td>
+              <td>R$:59.99</td>
+              <td>R$:20.00</td>
+              <td>R$:40.00</td>
+              <td>R$:15.00</td>
+            </tr>
+            <tr>
+              <td>P3</td>
+              <td>R$:89.99</td>
+              <td>R$:25.00</td>
+              <td>R$:50.00</td>
+              <td>R$:15.00</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>              
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Contrate os nossos serviços</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Autem suscipit quas facilis odio accusantium porro. 
+          Dicta saepe voluptas repellendus officiis eius pariatur eveniet vitae. 
+          Soluta voluptatibus expedita facere est beatae!</p>
+      </div>
+      <div class="intro-img">
+        <img src="img/passeando.svg" alt="Logo de HTML, CSS e JS.">
+      </div>
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend>Contato</legend>
+
+          <div class="form-group">
+            <label for="first-name">Nome</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Nome do pet</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Nome do pet">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Seu e-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">O que quer nos contar</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem..."></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Enviar!</button>
+          </div>
+        </fieldset>
+      </div>  
+    </div>
+  </section>
+
+
+  <footer id="footer" class="footer white-bg">
+    <p><a rel="nofollow" target="_blank" href="https://silvapro29.netlify.app/">Feito com <span class="heart">❤</span> por David Robison</a></p>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
